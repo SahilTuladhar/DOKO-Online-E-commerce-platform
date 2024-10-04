@@ -1,0 +1,143 @@
+.itemCover {
+  /* border: 1px solid black; */
+  width: 23%;
+  min-width: 21%;
+  margin-right: 3rem;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px 2px rgba(37, 37, 37, 0.234);
+  padding: 1%;
+  transition: height 1.5s, border-radius 1.5s, background-color 1.5s;
+}
+
+.itemCover:hover {
+  height: 103%;
+  border-radius: 30px 30px 0px 0px;
+  background-color: #d3ab9f74;
+}
+
+.itemImage {
+  min-height: 264px;
+  max-height: 264px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.itemImage img {
+  object-fit: fill;
+  min-height: 264px;
+  max-height: 264px;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 30px 30px 30px;
+  border: 2px solid black;
+}
+
+.itemInfo {
+  position: relative;
+  border: 1.5px solid black;
+  border-radius: 30px;
+  width: 98%;
+  right: 0.5%;
+  top: 1%;
+  margin: 10% 0% 0% 2%;
+  background-color: #b5948c83;
+  height: 100%;
+}
+
+.infoUp {
+  /* border: 2px solid purple; */
+  height: 50%;
+}
+
+.infoUp h2 {
+  position: relative;
+  /* border: 1px solid maroon; */
+  max-width: 200px;
+  max-height: 120px;
+  font-size: 1.3rem;
+  left: 10%;
+}
+
+.infoMid {
+  /* border: 1px solid blue; */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.infoMid span {
+  position: relative;
+  font-size: 130%;
+  left: 10%;
+}
+
+.quantity {
+  position: relative;
+  left: 3%;
+  width: 9%;
+  padding: 5px;
+  background-color: antiquewhite;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  height: 20px;
+}
+
+.infoDown {
+  /* border: 2px solid orange; */
+  position: relative;
+  height: 30%;
+  padding: 4%;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /* margin-top: 12%; */
+}
+
+.infoDown span {
+  font-size: 130%;
+  position: relative;
+  left: 2%;
+  margin-top: -3%;
+}
+
+.addBtn {
+  position: relative;
+  left: 11%;
+  bottom: 5px;
+  height: 65%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #e96e494a;
+}
+
+.bargainBtn {
+  position: relative;
+  left: 4%;
+  bottom: 5px;
+  height: 65%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #e96e494a;
+}
+
+.icon {
+  font-size: 20px !important;
+}
+
+.iconContainer {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin-left: 10%;
+}

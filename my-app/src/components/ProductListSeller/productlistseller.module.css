@@ -1,0 +1,47 @@
+.listCover {
+  position: relative;
+  /* border: 2px solid black; */
+  top: 5%;
+  width: 86%;
+  height: 75%;
+  left: 5%;
+  padding: 1%;
+}
+
+.list {
+  position: relative;
+  /* border: 2px solid red; */
+  height: 75%;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding: 1%;
+  display: flex;
+  justify-content: start;
+  overflow-x: scroll;
+}
+
+.pagination {
+  list-style: none;
+  position: relative;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+.pagination .pagenum {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 400;
+  transition: background-color 1s, color 1s;
+}
+
+.pagination .pagenum:hover {
+  background-color: #b5948c83;
+  /* color: white; */
+}

@@ -1,0 +1,29 @@
+.bidlistCover {
+  position: relative;
+  /* border: 2px solid black; */
+  top: 5%;
+  width: 86%;
+  height: 100%;
+  left: 5%;
+  padding: 1%;
+}
+
+.bidlist {
+  position: relative;
+  /* border: 2px solid red; */
+  height: 85%;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-around; */
+  overflow-x: scroll;
+}
+
+.line {
+  position: relative;
+  right: 5%;
+}

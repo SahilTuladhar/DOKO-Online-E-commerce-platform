@@ -1,0 +1,7 @@
+.homeContainer {
+  display: flex;
+  width: 100%;
+  background-color: #e96e494a;
+  position: relative;
+  height: calc(100vh - 80px);
+}

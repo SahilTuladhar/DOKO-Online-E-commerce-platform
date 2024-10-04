@@ -1,0 +1,57 @@
+.settingsWrapper {
+  flex: 80%;
+  overflow-y: scroll;
+}
+
+.settingsInfo {
+  height: 100%;
+}
+
+.settingsInfo h1 {
+  position: relative;
+  left: 5%;
+  font-size: 50px;
+}
+
+.settingsForm {
+  border: 1px solid black;
+  position: relative;
+  height: 90%;
+}
+
+.optionBox {
+  /* border: 1px solid black; */
+  box-shadow: 2px 2px 2px 2px rgba(63, 60, 60, 0.3);
+  position: relative;
+  width: 26%;
+  left: 5%;
+  padding: 1%;
+  height: 5%;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  border-radius: 25px;
+  margin-bottom: 2%;
+  background-color: #b5948c83;
+  transition: background-color 1s, width 1s, box-shadow 1s;
+}
+
+.optionBox:hover {
+  background-color: #cbaea683;
+  cursor: pointer;
+  width: 30%;
+  box-shadow: 2px 2px 2px 2px rgba(63, 60, 60, 0.5);
+}
+
+.optionBox span {
+  font-size: 200%;
+  width: 75%;
+
+  display: flex;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.icon {
+  font-size: 250% !important;
+}

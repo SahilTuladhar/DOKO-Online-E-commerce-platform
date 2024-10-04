@@ -1,0 +1,25 @@
+.userInfoCover {
+  border: 1px solid black;
+  width: 30%;
+  height: 25%;
+  left: 5%;
+  background-color: #b5948c83;
+  padding: 1%;
+  position: relative;
+  top: 4%;
+  border-radius: 35px;
+}
+
+.userInfoCover h3 {
+  font-size: 120%;
+}
+
+.info {
+  font-size: 100%;
+  font-weight: 200;
+}
+
+.userInfoCover h1 {
+  position: relative;
+  bottom: 5%;
+}

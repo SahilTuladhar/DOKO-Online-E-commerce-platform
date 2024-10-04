@@ -1,0 +1,112 @@
+.notificationCover {
+  width: 35%;
+  background-color: #b5948c83;
+  height: 18%;
+  display: flex;
+  padding: 1%;
+  border-radius: 25px;
+  position: relative;
+  margin: 1.5%;
+  transition: width 1s, box-shadow 1s, height 1s;
+}
+
+.notificationCover:hover {
+  width: 40%;
+  box-shadow: 1px 1px 1px 1px rgba(115, 113, 113, 0.5);
+  height: 20%;
+}
+
+.startContent {
+  /* border: 2px solid green; */
+  flex: 20%;
+  min-height: 90px;
+  max-height: 90px;
+}
+
+.startContent img {
+  object-fit: fill;
+  min-height: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.midContent {
+  flex: 60%;
+  padding: 1.5%;
+  left: 2%;
+  position: relative;
+}
+
+.infoUp {
+  position: relative;
+  height: 60%;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.infoUp span {
+  position: relative;
+  top: 10%;
+  padding: 2%;
+  font-size: 130%;
+  font-weight: 600;
+}
+
+.infoDown {
+  height: 40%;
+  width: 18.5rem;
+  position: absolute;
+  bottom: 15%;
+}
+
+.infoDownBid {
+  /* border: 1px solid blue; */
+  /* width: 70%; */
+  height: 50%;
+  position: relative;
+  top: 20%;
+}
+
+.infoDownBid span {
+  position: relative;
+  font-weight: 400;
+  font-size: 95%;
+  left: 2%;
+}
+
+.infoDownPrice {
+  /* border: 1px solid red; */
+  /* width: 34%; */
+  height: 50%;
+  position: relative;
+  bottom: 5%;
+}
+
+.price {
+  font-weight: bold;
+  position: relative;
+  font-size: 120%;
+  margin-left: 2%;
+}
+
+.endContent {
+  flex: 20%;
+  text-align: center;
+}
+
+.responseCover {
+  background-color: #c5593864;
+  margin: 5%;
+  height: 85%;
+  border-radius: 50%;
+}
+
+.icon {
+  font-size: 300% !important;
+  position: relative;
+  top: 20%;
+}

@@ -1,0 +1,50 @@
+.cartWrapper {
+  flex: 80%;
+  overflow-y: scroll;
+}
+
+.content {
+  width: 99%;
+  height: 95%;
+  position: relative;
+  margin-bottom: -10%;
+  align-items: center;
+}
+
+.displayText {
+  position: relative;
+  top: 40%;
+  left: 40%;
+  font-size: 35px;
+  border: 2px solid black;
+  padding: 1%;
+  border-radius: 30px;
+  background-color: #b5948c83;
+}
+
+.checkoutInfo {
+  position: relative;
+  text-align: center;
+}
+
+.checkoutBtn {
+  position: relative;
+  width: 8%;
+  height: 40px;
+  border-radius: 30px;
+  margin: 2%;
+  background-color: #b5948c83;
+  transition: background-color 1s, box-shadow 1s;
+}
+
+.checkoutBtn:hover {
+  cursor: pointer;
+  background-color: #d3ab9f74;
+  box-shadow: 2px 2px 5px 2px rgba(37, 37, 37, 0.234);
+}
+
+.checkoutInfo span {
+  position: relative;
+  top: 3px;
+  font-size: 20px;
+}

@@ -1,0 +1,58 @@
+.homeWrapperseller {
+  flex: 80%;
+  overflow-y: scroll;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2.5%;
+}
+
+.graphContent {
+  position: relative;
+  /* left: 10%; */
+  width: 550px;
+  /* height: 500px; */
+  flex: 1;
+  margin-right: 20px; /* Add right margin to create space between the divs */
+}
+
+.barContent {
+  position: relative;
+  right: 13%;
+  flex: 1;
+}
+
+.graphContent table {
+  width: 100%;
+  /* border: 1px solid green; */
+  border-collapse: collapse;
+}
+
+.graphContent td {
+  position: relative;
+  /* border: 1px solid blue; */
+  text-align: center;
+}
+
+.graphContent th {
+  position: relative;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #b5948c83;
+  /* border: 1px solid black; */
+  font-weight: bold;
+}
+
+.graphContent tr:last-child td {
+  font-weight: bold;
+}

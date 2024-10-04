@@ -1,0 +1,24 @@
+.totalSales {
+  position: relative;
+  /* border: 1px solid black; */
+  width: 35%;
+  padding: 1%;
+  margin-bottom: 2%;
+  border-radius: 20px;
+  background-color: #b5948c83;
+  transition: 1s width;
+}
+
+.tableContainer:hover {
+  box-shadow: 2px 2px 2px 2px rgba(63, 60, 60, 0.234);
+}
+
+.totalSales:hover {
+  width: 40%;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(237, 225, 225, 0.234);
+}
+
+.header:hover {
+  width: 25%;
+  border-radius: 40px;
+}

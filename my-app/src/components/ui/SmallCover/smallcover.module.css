@@ -1,0 +1,19 @@
+.cover {
+  position: relative;
+  padding: 1.5rem;
+  right: 30%;
+  top: 0.5rem;
+  width: 80%;
+  height: 80%;
+  justify-content: center;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 2px 2px 5px 0px rgba(37, 37, 37, 0.234);
+  transition: height 1.5s, background-color 1.5s, border-radius 1.5s;
+}
+
+.cover:hover {
+  height: 90%;
+  border-radius: 15px 15px 0px 0px;
+  background-color: #b5948c83;
+  cursor: pointer;
+}

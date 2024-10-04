@@ -1,0 +1,162 @@
+.productFeedWrapper {
+  flex: 80%;
+  overflow-y: scroll;
+}
+
+.productWrapper {
+  position: relative;
+  left: 12%;
+  height: 85%;
+  width: 75%;
+  align-items: center;
+  margin: 2.5%;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(242, 208, 208, 0.591);
+  border-radius: 35px;
+}
+
+.imageContent {
+  flex: 50%;
+  height: 100%;
+}
+
+.imageWrapper {
+  margin: 5%;
+  height: 90%;
+  min-height: 90%;
+  max-height: 90%;
+}
+
+.imageWrapper img {
+  object-fit: fill;
+  border: 2px solid black;
+  min-height: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  border-radius: 35px;
+}
+
+.infoContent {
+  position: relative;
+  top: 6.5%;
+  margin: 1% 1% 2% 1%;
+  height: 108%;
+  flex: 50%;
+}
+
+.infoUp {
+  /* border: 1px solid green; */
+  position: relative;
+  margin: 2%;
+  border: 2px solid black;
+  height: 20%;
+  padding: 0.5%;
+  align-items: center;
+  border-radius: 35px;
+  background-color: #e96e494a;
+}
+
+.itemInfoUp {
+  position: relative;
+  left: 5%;
+  top: 0.1%;
+  margin-bottom: 1.25%;
+  bottom: 10%;
+  height: 70%;
+}
+
+.itemInfoUp h1 {
+  font-size: 150%;
+  padding: 1%;
+}
+
+.itemInfoUp span {
+  position: relative;
+  left: 1%;
+  font-size: 125%;
+}
+
+.infoDown {
+  position: relative;
+  top: 2%;
+  border: 2px solid black;
+  margin: 2%;
+  height: 58%;
+  border-radius: 35px;
+  background-color: #e96e494a;
+}
+
+.infoDown h1 {
+  position: relative;
+  left: 5%;
+}
+
+.infoDown span {
+  position: relative;
+  left: 5%;
+  font-size: 150%;
+}
+
+.itemInfoDown {
+  position: relative;
+  left: 3%;
+  height: 30%;
+  bottom: 15%;
+  display: flex;
+}
+
+.itemInfoDown span {
+  font-size: 20px;
+  position: relative;
+  left: 3%;
+}
+.addBtn {
+  position: relative;
+  left: 30%;
+  height: 85%;
+  width: 10%;
+  bottom: 3%;
+  border-radius: 10px;
+  background-color: #b5948c83;
+}
+
+.bargainBtn {
+  position: relative;
+  left: 33%;
+  height: 85%;
+  bottom: 3%;
+  width: 10%;
+  border-radius: 10px;
+  background-color: #b5948c83;
+}
+
+.icon {
+  font-size: 25px !important;
+}
+
+.infoMid {
+  border: 2px solid black;
+  margin: 2%;
+  height: 10%;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e96e494a;
+}
+
+.infoMid span {
+  font-size: 130%;
+  margin: 5%;
+}
+
+.infoMid input {
+  border: 1px solid black;
+  height: 35%;
+  width: 45%;
+  padding: 1.5%;
+  border-radius: 13px;
+  background-color: #e4b3a683;
+}

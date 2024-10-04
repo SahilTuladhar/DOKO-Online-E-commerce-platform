@@ -1,0 +1,93 @@
+.navbar {
+  background-color: #e96e494a;
+  position: sticky;
+  height: 40px;
+  top: 0;
+  width: 98.25%;
+  display: flex;
+  padding: 0.5rem 1rem;
+}
+
+.navbarleft {
+  display: flex;
+  position: relative;
+  left: 17px;
+  flex: 10%;
+}
+
+.navbarmid {
+  display: flex;
+  flex: 50%;
+}
+
+.navbarmid nav {
+  display: flex;
+  width: 100%;
+  margin-left: 60%;
+}
+
+.navbarmid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: baseline;
+}
+
+.navbarmid li {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.navbarmid li span {
+  font-size: 1.1rem;
+  color: black;
+  transition: opacity 1s;
+}
+
+.navbarmid a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  transition: opacity 1s;
+}
+
+.navbarmid a:hover,
+.navbarmid a:active,
+.navbarmid a.active,
+.navbarmid li span:hover {
+  opacity: 0.8;
+}
+
+.navbarright {
+  display: flex;
+  position: static;
+  flex: 40%;
+}
+
+.searchbar {
+  border: 2px solid black;
+  padding: 3px;
+  display: flex;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 20%;
+}
+
+.navbarright input {
+  margin: 1px;
+  background-color: #ffccbc4a;
+  border: none;
+}
+
+.navbarright input:focus {
+  outline: none;
+  background-color: #ffccbc4a;
+}
+
+.icon {
+  font-style: 20px !important;
+  margin-left: 5px;
+  margin-top: 1px;
+  margin-bottom: -8px;
+  padding: 2px;
+}
